@@ -1,8 +1,8 @@
-﻿Console.WriteLine("Adınızı girin");
+Console.WriteLine("Adınızı girin");
 string ad = Console.ReadLine();
 
 
-if (ad == "Sirac")
+if (ad == "Hepsinin doğru olması için adınız")
 {
     
     int TopSkor = 0;
@@ -19,7 +19,7 @@ if (ad == "Sirac")
 
         havuz.SoruCikar(rastgeleSoru);
 
-        if (ad == "Sirac")
+        if (ad == "")
         {
             Console.WriteLine("Tebrikler hanenize 10 puan eklendi");
             TopSkor += 10;
