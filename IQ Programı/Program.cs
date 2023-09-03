@@ -111,7 +111,7 @@ else
                         {
                             if (bas == 2)
                             {
-                                
+                                break;
                             }
                         }
                     }
